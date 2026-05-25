@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jagrati | DevOps & Platform Engineer</title>
+
   <style>
     * {
       margin: 0;
@@ -135,8 +136,13 @@
       background: #ef4444;
     }
 
-    .dot:nth-child(2) { background: #f59e0b; }
-    .dot:nth-child(3) { background: #22c55e; }
+    .dot:nth-child(2) {
+      background: #f59e0b;
+    }
+
+    .dot:nth-child(3) {
+      background: #22c55e;
+    }
 
     .terminal-body {
       padding: 20px;
@@ -219,27 +225,6 @@
       color: #38bdf8;
     }
 
-    .architecture {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      align-items: center;
-      margin-top: 20px;
-    }
-
-    .arch-box {
-      padding: 14px 18px;
-      background: #020617;
-      border: 1px solid rgba(56,189,248,0.35);
-      border-radius: 12px;
-      color: #e5e7eb;
-    }
-
-    .arrow {
-      color: #38bdf8;
-      font-weight: bold;
-    }
-
     .timeline {
       border-left: 2px solid #38bdf8;
       padding-left: 24px;
@@ -290,9 +275,12 @@
     }
   </style>
 </head>
+
 <body>
+
   <nav>
     <h2>Jagrati</h2>
+
     <div>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
@@ -302,97 +290,162 @@
   </nav>
 
   <header>
+
     <div class="hero">
+
       <div>
-        <span class="badge">DevOps | SRE | Platform Engineering</span>
-        <h1>Hi, I'm <span>Jagrati</span><br>Building Reliable Cloud Platforms</h1>
+
+        <span class="badge">
+          DevOps | SRE | Platform Engineering
+        </span>
+
+        <h1>
+          Hi, I'm <span>Jagrati</span><br>
+          Building Reliable Cloud Platforms
+        </h1>
+
         <p>
-          DevOps / SRE Engineer with 5 years of experience in Kubernetes, CI/CD, Terraform,
-          Azure, AWS, GCP, observability, automation, DevSecOps, and production reliability.
-          I design scalable infrastructure, automate deployments, and improve system reliability.
+          DevOps / SRE Engineer with 5 years of experience in Kubernetes,
+          CI/CD, Terraform, Azure, AWS, GCP, observability, automation,
+          DevSecOps, and production reliability.
         </p>
+
         <div class="buttons">
-          <a class="primary-btn" href="#projects">View DevOps Projects</a>
-          <a class="secondary-btn" href="mailto:jagrati.r012@gmail.com">Contact Me</a>
-          <a class="secondary-btn" href="https://www.linkedin.com/in/jagratir012" target="_blank">LinkedIn</a>
+          <a class="primary-btn" href="#projects">
+            View Projects
+          </a>
+
+          <a class="secondary-btn" href="mailto:jagrati.r012@gmail.com">
+            Contact Me
+          </a>
+
+          <a class="secondary-btn"
+             href="https://www.linkedin.com/in/jagratir012"
+             target="_blank">
+             LinkedIn
+          </a>
         </div>
+
       </div>
 
       <div class="terminal">
+
         <div class="terminal-header">
           <div class="dot"></div>
           <div class="dot"></div>
           <div class="dot"></div>
         </div>
+
         <div class="terminal-body" id="terminalOutput"></div>
+
       </div>
+
     </div>
+
   </header>
 
   <section>
-    <h2 class="section-title">Live DevOps Style Dashboard</h2>
+
+    <h2 class="section-title">
+      Live DevOps Dashboard
+    </h2>
+
     <p class="section-subtitle">
-      A creative dashboard section to visually show production reliability, automation, and platform engineering impact.
+      Production reliability, automation, observability, and platform engineering metrics.
     </p>
+
     <div class="metrics">
-      <div class="metric"><h3>5+</h3><p>Years Experience</p></div>
-      <div class="metric"><h3>50%</h3><p>Faster Troubleshooting</p></div>
-      <div class="metric"><h3>40%</h3><p>Licensing Cost Reduction</p></div>
-      <div class="metric"><h3>60%</h3><p>VMware Cost Savings</p></div>
+
+      <div class="metric">
+        <h3>5+</h3>
+        <p>Years Experience</p>
+      </div>
+
+      <div class="metric">
+        <h3>50%</h3>
+        <p>Faster Troubleshooting</p>
+      </div>
+
+      <div class="metric">
+        <h3>40%</h3>
+        <p>Cost Reduction</p>
+      </div>
+
+      <div class="metric">
+        <h3>99.99%</h3>
+        <p>System Reliability</p>
+      </div>
+
     </div>
+
   </section>
 
   <section id="skills">
-    <h2 class="section-title">Technical Skills</h2>
-    <p class="section-subtitle">Core DevOps, SRE, cloud, automation, security, and observability skills.</p>
+
+    <h2 class="section-title">
+      Technical Skills
+    </h2>
+
+    <p class="section-subtitle">
+      DevOps, cloud, automation, security, and observability technologies.
+    </p>
+
     <div class="grid">
+
       <div class="card">
         <h3>Cloud Platforms</h3>
         <p>Azure, AWS, GCP, OpenStack, VMware</p>
       </div>
+
       <div class="card">
         <h3>Containers</h3>
-        <p>Kubernetes, Docker, Helm, Ingress, Autoscaling</p>
+        <p>Kubernetes, Docker, Helm, Ingress</p>
       </div>
+
       <div class="card">
         <h3>CI/CD</h3>
-        <p>Jenkins, GitLab CI/CD, GitHub Actions, JFrog Artifactory</p>
+        <p>Jenkins, GitLab CI/CD, GitHub Actions</p>
       </div>
+
       <div class="card">
         <h3>IaC & Automation</h3>
-        <p>Terraform, Ansible, Python, Bash, Shell Scripting</p>
+        <p>Terraform, Ansible, Python, Bash</p>
       </div>
+
       <div class="card">
         <h3>Observability</h3>
-        <p>Prometheus, Grafana, ELK Stack, CloudWatch, Logging</p>
+        <p>Prometheus, Grafana, ELK Stack</p>
       </div>
+
       <div class="card">
         <h3>Security</h3>
-        <p>Vault, RBAC, JWT/OAuth, Trivy, Tenable, DevSecOps</p>
+        <p>Vault, JWT/OAuth, RBAC, DevSecOps</p>
       </div>
+
     </div>
+
   </section>
 
   <section id="projects">
-    <h2 class="section-title">Featured DevOps Projects</h2>
+
+    <h2 class="section-title">
+      Featured DevOps Projects
+    </h2>
+
     <p class="section-subtitle">
-      These projects are designed to show practical DevOps capability instead of only listing tools.
+      Real-world DevOps and platform engineering projects.
     </p>
+
     <div class="grid">
-      <div class="card">
-        <h3>Self-Hosted Portfolio on AWS EC2</h3>
-        <p>Hosted this portfolio using AWS EC2, Linux, Nginx, Docker, and GitHub Actions CI/CD.</p>
-        <ul>
-          <li>EC2 Free Tier deployment</li>
-          <li>Nginx reverse proxy</li>
-          <li>Dockerized static site</li>
-          <li>Automated deployment pipeline</li>
-        </ul>
-      </div>
 
       <div class="card">
         <h3>Kubernetes Monitoring Stack</h3>
-        <p>Designed monitoring architecture using Prometheus, Grafana, and ELK for application observability.</p>
+
+        <p>
+          Designed monitoring architecture using Prometheus,
+          Grafana, and ELK for observability.
+        </p>
+
         <ul>
           <li>Metrics collection</li>
           <li>Log aggregation</li>
@@ -403,115 +456,162 @@
 
       <div class="card">
         <h3>DevSecOps CI/CD Pipeline</h3>
-        <p>Built secure CI/CD workflows with code scanning, container scanning, and automated deployments.</p>
+
+        <p>
+          Built secure CI/CD workflows with code scanning,
+          container scanning, and automated deployments.
+        </p>
+
         <ul>
           <li>GitLab CI/CD</li>
           <li>CodeQL / SAST</li>
-          <li>Trivy / Tenable scanning</li>
+          <li>Trivy / Tenable</li>
           <li>Artifact management</li>
         </ul>
       </div>
 
       <div class="card">
         <h3>AI-Assisted Incident Analysis</h3>
-        <p>Used AI tools such as Kiro AI for log analysis, issue detection, and faster troubleshooting.</p>
+
+        <p>
+          Used AI tools such as Kiro AI for log analysis,
+          issue detection, and troubleshooting.
+        </p>
+
         <ul>
           <li>AIOps workflow</li>
           <li>Log analysis</li>
-          <li>Root cause analysis support</li>
+          <li>Root cause analysis</li>
           <li>Engineering productivity</li>
         </ul>
       </div>
-    </div>
-  </section>
 
-  <section>
-    <h2 class="section-title">Portfolio Hosting Architecture</h2>
-    <p class="section-subtitle">This portfolio itself can be presented as a DevOps project.</p>
-    <div class="architecture">
-      <div class="arch-box">GitHub Repo</div>
-      <div class="arrow">→</div>
-      <div class="arch-box">GitHub Actions</div>
-      <div class="arrow">→</div>
-      <div class="arch-box">AWS EC2</div>
-      <div class="arrow">→</div>
-      <div class="arch-box">Docker</div>
-      <div class="arrow">→</div>
-      <div class="arch-box">Nginx</div>
-      <div class="arrow">→</div>
-      <div class="arch-box">Portfolio Website</div>
     </div>
+
   </section>
 
   <section id="experience">
-    <h2 class="section-title">Experience</h2>
+
+    <h2 class="section-title">
+      Experience
+    </h2>
+
     <div class="timeline">
+
       <div class="timeline-item">
+
         <h3>Platform Engineer 2 - Entain India</h3>
+
         <p><strong>Feb 2023 - Present</strong></p>
+
         <p>
-          Working on platform engineering, Kubernetes, CI/CD, DevSecOps, observability,
-          AI-assisted operations, secrets management, production support, and automation.
+          Working on Kubernetes, DevSecOps, observability,
+          CI/CD automation, secrets management,
+          production support, and platform engineering.
         </p>
+
       </div>
+
       <div class="timeline-item">
+
         <h3>DevOps Engineer - NPCI</h3>
+
         <p><strong>Jul 2021 - Jan 2023</strong></p>
+
         <p>
-          Worked on cloud infrastructure, OpenStack, GCP pipelines, Terraform, Ansible,
-          Jenkins automation, VM provisioning, and data center migration projects.
+          Worked on OpenStack, GCP pipelines,
+          Terraform, Ansible, Jenkins automation,
+          VM provisioning, and cloud infrastructure.
         </p>
+
       </div>
+
     </div>
+
   </section>
 
   <section id="contact" class="contact">
-    <h2 class="section-title">Let's Connect</h2>
+
+    <h2 class="section-title">
+      Let's Connect
+    </h2>
+
     <p class="section-subtitle" style="margin: 0 auto 24px;">
-      Interested in DevOps, SRE, Platform Engineering, Cloud Automation, and Kubernetes roles.
+      Interested in DevOps, SRE, Platform Engineering,
+      Kubernetes, and Cloud roles.
     </p>
+
     <div class="buttons">
-      <a class="primary-btn" href="mailto:jagrati.r012@gmail.com">Email Me</a>
-      <a class="secondary-btn" href="https://www.linkedin.com/in/jagratir012" target="_blank">LinkedIn Profile</a>
+
+      <a class="primary-btn"
+         href="mailto:jagrati.r012@gmail.com">
+         Email Me
+      </a>
+
+      <a class="secondary-btn"
+         href="https://www.linkedin.com/in/jagratir012"
+         target="_blank">
+         LinkedIn Profile
+      </a>
+
     </div>
+
   </section>
 
   <footer>
-    <p>© 2026 Jagrati | DevOps & Platform Engineering Portfolio</p>
+    <p>
+      © 2026 Jagrati | DevOps & Platform Engineering Portfolio
+    </p>
   </footer>
 
   <script>
+
     const commands = [
+
       "$ kubectl get pods",
-      "portfolio-app    Running    1/1    99.99% uptime",
-      "$ terraform plan",
-      "Infrastructure changes: 0 to add, 0 to change, 0 to destroy",
+      "platform-api     Running     1/1",
+
+      "$ terraform apply",
+      "Infrastructure deployed successfully",
+
       "$ docker ps",
-      "nginx-portfolio    Up 24 hours    80/tcp",
+      "portfolio-app     Up 24 hours",
+
       "$ curl /health",
-      "status: healthy | latency: 24ms",
+      "status: healthy",
+
       "$ whoami",
-      "Jagrati - DevOps / SRE / Platform Engineer"
+      "Jagrati - DevOps Engineer"
+
     ];
 
     let index = 0;
+
     const terminal = document.getElementById("terminalOutput");
 
     function typeLine() {
+
       if (index < commands.length) {
+
         const line = document.createElement("div");
+
         if (commands[index].startsWith("$")) {
           line.innerHTML = `<span>${commands[index]}</span>`;
         } else {
           line.textContent = commands[index];
         }
+
         terminal.appendChild(line);
+
         index++;
+
         setTimeout(typeLine, 650);
       }
     }
 
     typeLine();
+
   </script>
+
 </body>
 </html>
